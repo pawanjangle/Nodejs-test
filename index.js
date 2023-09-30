@@ -9,7 +9,7 @@ app.use( bodyparser.urlencoded( {extended: false} ) );
 app.use(cors());
 
 app.get( "/", (req, res)=>{
-res.json("hello rohan")
+res.json("hello shubham")
 } );
 app.listen( 3000, (err) =>{
 if (err)
